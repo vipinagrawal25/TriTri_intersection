@@ -46,9 +46,6 @@ int tri_tri_overlap_test_3d(double p1[3], double q1[3], double r1[3],
 
 
 // Three-dimensional Triangle-Triangle Overlap Test
-// additionaly computes the segment of intersection of the two triangles if it exists. 
-// coplanar returns whether the triangles are coplanar, 
-// source and target are the endpoints of the line segment of intersection 
 int tri_tri_intersection_test_3d(double p1[3], double q1[3], double r1[3], 
 								 double p2[3], double q2[3], double r2[3]);
 
