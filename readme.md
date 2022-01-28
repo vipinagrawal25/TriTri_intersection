@@ -2,8 +2,10 @@ The code computes intersection of two triangles embeded in 3 dimensional space. 
 
 ### Changes:
 	* Our code return 0 if the triangles are sharing an edge.
-	* Our code do not compute the line of intersection, which makes it faster (5%) than the existing code. It also implies that this is the fastest code for computing the triangle-triangle intersection for double precision.
-	* Our code fixes a small bug in the existing code. While comparing two double value, we add a small tolerance (1e=14) to take care of the small floating point errors that the code builds.
+	* Our code do not compute the line of intersection, which makes it faster (5%) 
+	  than the existing code. It also implies that this is the fastest code for computing the triangle-triangle intersection for double precision.
+	* Our code fixes a small bug in the existing code. While comparing two double value, 
+	 we add a small tolerance (1e=14) to take care of the small floating point errors that the code builds.
 
 ### About:
 	* data repository contains two files: "intersected.txt" and "separated.txt". ``intersected.txt''
