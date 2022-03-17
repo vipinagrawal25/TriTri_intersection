@@ -1,4 +1,4 @@
-A faster code to computes the intersection of two triangles embeded in 3 dimensional space. It is an update of the original code at [JGT-code,Volume_08,Number_1](https://github.com/erich666/jgt-code/tree/master/Volume_08/Number_1/Guigue2003).
+A faster code to compute the intersection of two triangles embeded in 3 dimensional space. It is an update of the original code at [JGT-code,Volume_08,Number_1](https://github.com/erich666/jgt-code/tree/master/Volume_08/Number_1/Guigue2003).
 
 ### Changes:
 	* The code return 0 if the triangles are sharing an edge.
